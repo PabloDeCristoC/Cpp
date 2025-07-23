@@ -23,5 +23,3 @@ Todos los ejemplos están escritos en `C++` y organizados por tema para mayor cl
    - `Test`: Exámenes realizados sobre todo el contenido
 
 `Estructura de Datos en C++`
-
-`Mis Proyectos`

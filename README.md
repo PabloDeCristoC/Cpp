@@ -23,5 +23,3 @@ All examples are written in `C++` and organized by topic for better clarity and 
    - `Test`: Exams based on all the content
 
 `Data Structures in C++`
-
-`My Projects`

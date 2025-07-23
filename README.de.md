@@ -23,5 +23,3 @@ Alle Beispiele sind in `C++` geschrieben und thematisch geordnet, um Klarheit un
    - `Test`: Prüfungen zu allen behandelten Themen
 
 `Datenstrukturen in C++`
-
-`Meine Projekte`
