@@ -15,8 +15,12 @@ void Ejercicio1(int n1, int n2){
     suma = n1+n2;
     resta = n1-n2;
     multiplicacion = n1*n2;
-    division = n1/n2;
+    division = static_cast<float>(n1)/n2;  //ESTO TRUNCA ANTES LA DIVISION PQ SI NO, ES DIVISION ENTERA
 
+    std::cout << "\nSuma: " << suma << std::endl;
+    std::cout << "Resta: " << resta << std::endl;
+    std::cout << "Multiplicación: " << multiplicacion << std::endl;
+    std::cout << "División: " << division << std::endl;
     return;
 }
 
@@ -44,4 +48,25 @@ void Ejercicio3(){
     std::cout<<altura;
 
     return;
+}
+
+int main(){
+    int n1, n2;
+    float precio, iva;
+
+    std::cout<<"\nIngrese un numero 1: "<< std::endl;
+    std::cin>>n1;
+    std::cout<<"\nIngrese un numero 2: "<< std::endl;
+    std::cin>>n2;
+
+    std::cout<<"\nIngrese el precio del producto: "<< std::endl;
+    std::cin>>precio;
+    std::cout<<"\nIngrese el iva a aplicar (en porcentaje): "<< std::endl;
+    std::cin>>iva;
+
+    Ejercicio1(n1, n2);
+    std::cout<<"El precio con iva es: "<<Ejercicio2(precio, iva)<<std::endl;
+    Ejercicio3();
+
+    return 0;
 }
