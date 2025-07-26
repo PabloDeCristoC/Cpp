@@ -8,6 +8,7 @@ EVITARE: Uso del "using namespace std;" ya que en proyectos grandes ayuda a orde
 
 #include <iostream> //Sirve para la entrada y salida de datos
 #include <cmath> //Es la libreria de funciones matematicas como potencia o raiz cuadrada es el standar en c++ moderno pq el el otro math.h es del c
+#include <iomanip> //sirve para ajustar la precision a 2 decimales y varias cosas mas
 
 float Ejercicio1(float a, float b){
     return static_cast<float>(a/b + 1);
@@ -88,6 +89,7 @@ void Ejercicio10(float b,  float a, float c){
     if (delta > 0){
         x1 = static_cast<float>((-b+sqrt(delta))/(2*a));
         x2 = static_cast<float>((-b-sqrt(delta))/(2*a));
+        std::setprecision(2);
         
         std::cout<<"\nLa funcion tiene 2 soluciones reales"<<std::endl;
         std::cout<<"\nLa solucion x1 es: "<<x1;
@@ -96,7 +98,8 @@ void Ejercicio10(float b,  float a, float c){
 
     else if (delta == 0){
         x1 = static_cast<float>((-b+sqrt(delta))/(2*a));
-
+        std::setprecision(2);
+        
         std::cout<<"\nLa funcion tiene 1 solucion real"<<std::endl;
         std::cout<<"\nLa solucion x1 y x2 es: "<<x1;
     }
