@@ -1,25 +1,35 @@
-📘 Diese README ist verfügbar auf:
-- [Englisch 🇬🇧](README.md)
-- [Spanisch 🇪🇸](README.es.md)
+📘 Dieses README ist verfügbar in:  
+- [Spanisch 🇪🇸](README.es.md)  
+- [Deutsch 🇩🇪](README.de.md)  
 
-# 📘 C++ — ALLES, WAS IN DIESER SPRACHE ENTWICKELT WURDE
+# 📘 C/C++ — ALLES IN DIESEM SPRACHEN ENTWICKELT
 
-Dieses Repository enthält meine persönlichen Notizen und Codes aus den Universitätskursen:
-- **Algorithmen und Programmierung**
-- **Datenstrukturen**
-- **Demnächst verfügbar**
+Dieses Repository ist mein **persönliches Protokoll** meines Bildungsfortschritts und meiner Ausbildung.  
+Es enthält Notizen, Codebeispiele und Übungen aus meinen Universitätskursen, hauptsächlich fokussiert auf:  
+- **Algorithmen und Programmierung**  
+- **Datenstrukturen**  
+- **Demnächst verfügbar**  
 
-Alle Beispiele sind in `C++` geschrieben und thematisch geordnet, um Klarheit und Fortschritt besser nachvollziehen zu können.
+Alle Beispiele sind in `C++` geschrieben und thematisch organisiert, um Übersichtlichkeit zu gewährleisten und meinen Lernfortschritt nachzuvollziehen.
+
+> ⚠️ **Wichtig:** Dieses Repo ist *nur* ein persönliches Protokoll meines Lern- und Programmierprozesses.  
+> Für vollständige Projekte, Portfolio und weitere Materialien besuche bitte meine Webseite und mein GitHub-Profil.
+
+🔗 Sieh dir mein Portfolio hier an → [portafoliobypablokoern.netlify.app](https://portafoliobypablokoern.netlify.app)
+
+---
 
 ## 📂 Struktur
 
-`Fundamentals of C++, Algorithms, and Programming/`
-   - `00_intro`: Erste Schritte, Syntax, grundlegende Ausgabe  
-   - `01_conditionals/`: `if`, `else`, verschachtelte Logik  
-   - `02_loops/`: `while`, `for`, Kontrollfluss  
-   - `03_arrays_matrices/`: Eindimensionale und zweidimensionale Arrays  
-   - `04_sorting_searching/`: Bubble Sort, lineare/binäre Suche  
-   - `05_strings_structs/`: Zeichenkettenmanipulation und Verwendung von Strukturen  
-   - `Test`: Prüfungen zu allen behandelten Themen
+`Grundlagen von C++, Algorithmen und Programmierung/`  
+- `00_intro/`: Erste Schritte, Syntax, einfache Ausgabe  
+- `01_bedingungen/`: `if`, `else`, verschachtelte Logik  
+- `02_schleifen/`: `while`, `for`, Kontrollfluss  
+- `03_arrays_matrizen/`: Eindimensionale und zweidimensionale Arrays  
+- `04_sortieren_suchen/`: Bubble Sort, lineare und binäre Suche  
+- `05_strings_structs/`: Zeichenkettenmanipulation und Struct-Nutzung  
 
-`Datenstrukturen in C++`
+`Datenstrukturen in C++/`  
+- *(Demnächst verfügbar)*  
+
+---
