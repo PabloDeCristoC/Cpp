@@ -15,7 +15,7 @@ void Ejercicio1(int n1, int n2){
     suma = n1+n2;
     resta = n1-n2;
     multiplicacion = n1*n2;
-    division = static_cast<float>(n1)/n2;  //ESTO TRUNCA ANTES LA DIVISION PQ SI NO, ES DIVISION ENTERA
+    division = static_cast<float>(n1/n2);  //ESTO TRUNCA ANTES LA DIVISION PQ SI NO, ES DIVISION ENTERA
 
     std::cout << "\nSuma: " << suma << std::endl;
     std::cout << "Resta: " << resta << std::endl;
