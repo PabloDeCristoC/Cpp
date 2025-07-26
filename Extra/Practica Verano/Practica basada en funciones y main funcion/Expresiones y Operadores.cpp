@@ -89,19 +89,18 @@ void Ejercicio10(float b,  float a, float c){
     if (delta > 0){
         x1 = static_cast<float>((-b+sqrt(delta))/(2*a));
         x2 = static_cast<float>((-b-sqrt(delta))/(2*a));
-        std::setprecision(2);
         
         std::cout<<"\nLa funcion tiene 2 soluciones reales"<<std::endl;
-        std::cout<<"\nLa solucion x1 es: "<<x1;
-        std::cout<<"\nLa solucion x2 es: "<<x2;
+        std::cout<<"\nLa solucion x1 es: "<<std::fixed<<std::setprecision(2)<<x1;
+        std::cout<<"\nLa solucion x2 es: "<<std::fixed<<std::setprecision(2)<<x2;
     }
 
     else if (delta == 0){
         x1 = static_cast<float>((-b+sqrt(delta))/(2*a));
         std::setprecision(2);
-        
+
         std::cout<<"\nLa funcion tiene 1 solucion real"<<std::endl;
-        std::cout<<"\nLa solucion x1 y x2 es: "<<x1;
+        std::cout<<"\nLa solucion x1 y x2 es: "<<std::fixed<<std::setprecision(2)<<x1;
     }
 
     else if (delta < 0){
