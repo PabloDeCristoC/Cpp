@@ -15,7 +15,7 @@ Alle Beispiele sind in `C++` geschrieben und thematisch organisiert, um Übersic
 > ⚠️ **Wichtig:** Dieses Repo ist *nur* ein persönliches Protokoll meines Lern- und Programmierprozesses.  
 > Für vollständige Projekte, Portfolio und weitere Materialien besuche bitte meine Webseite und mein GitHub-Profil.
 
-🔗 Sieh dir mein Portfolio hier an → [portafoliobypablokoern.netlify.app](https://portafoliobypablokoern.netlify.app)
+🔗 Sieh dir mein Portfolio hier an → [portafoliopablodecristo.netlify.app](https://portafoliopablodecristo.netlify.app/portfolio)
 
 ---
 

@@ -15,7 +15,7 @@ All examples are written in `C++` and organized by topic to facilitate clarity a
 > ⚠️ **Important:** This repo is *only* a personal log of my study process and programming practice.  
 > For full projects, portfolio, and additional materials, visit my website and GitHub profile.
 
-🔗 Check out my portfolio here → [portafoliobypablokoern.netlify.app](https://portafoliobypablokoern.netlify.app)
+🔗 Check out my portfolio here → [portafoliopablodecristo.netlify.app](https://portafoliopablodecristo.netlify.app/portfolio)
 
 ---
 
